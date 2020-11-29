@@ -54,7 +54,7 @@ module.exports = gql`
         post_id: String!,
         author_id: String!,
         text: String!,
-        parend_id: String = "0",
+        parent_id: String = "0",
     ): Comment,
 
     deleteUser(
